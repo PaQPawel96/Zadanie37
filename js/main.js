@@ -1,21 +1,11 @@
-
-function AddText()
+let d = document.getElementById("text");
+function addText()
 {
-    let d=document.getElementById("text").textContent;
-    d.textContent="Akademia 108";
+    
+    d.textContent = "Akademia 108";
     
 }
-function DeleteText()
+function deleteText()
 {
-   let u= document.getElementById("text").textContent;
-   u.textContent='';
+   d.textContent = '';
 }
-
-/*
-var delMe = document.getElementById('text');
-    delMe.innerHTML = '';
-}
-function insert()
-{
-    var insMe = document.getElementById('text');
-    insMe.innerHTML = "Line 1\r\nLine2";*/
